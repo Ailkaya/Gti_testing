@@ -31,5 +31,5 @@ func main() {
 	r := setupRouter()
 	r = postUser(r)
 	fmt.Println("hello")
-	r.Run(":8080")
+	r.Run(":80")
 }
